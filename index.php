@@ -64,7 +64,7 @@ $output1 = getBetween($result1,$start,$end);
 
 <iframe>
 <?php
-$url2="http://edge1337.herokuapp.com/http://playstream.club/allcric.php?id=" . $output1 . "&p=0&c=0&stretching=";
+$url2="http://playstream.club/allcric.php?id=" . $output1 . "&p=0&c=0&stretching=";
 $agent= 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36';
 
 $ch = curl_init();
