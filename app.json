@@ -1,0 +1,13 @@
+{
+  "name": "firework",
+  "description": "Testing and trying.",
+  "website": "https://github.com/jailbreak26/firework",
+  "repository": "https://github.com/jailbreak26/firework",
+  "keywords": [
+    "php",  
+    "cors",
+    "proxy",
+    "server",
+    "heroku"
+  ]
+}
