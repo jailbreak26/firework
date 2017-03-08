@@ -3,4 +3,7 @@
   "description": "Testing and trying until the last braeth until it done.",
   "website": "https://github.com/jailbreak26/firework",
   "repository": "https://github.com/jailbreak26/firework"
+  "require": {
+    "php": "^5.6.0"
+  }
 }
