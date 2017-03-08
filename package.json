@@ -1,0 +1,33 @@
+{
+  "name": "firework",
+  "description": "Testing and trying",
+  "version": "0.0.1",
+    "website": "http://github.com/jailbreak26/firework",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jailbreak26/firework.git"
+  },
+  "author": {
+    "name": "jailbreak26",
+    "email": "jailbreak31@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "request": "^2.40.0"
+  },
+  "keywords": [
+    "cors",
+    "proxy",
+    "server",
+    "heroku"
+  ],
+  "main": "index.php",
+  "bin": {
+    "firework": "index.php"
+  },
+  "scripts": {
+    "start": "php index.php",
+    "test": "php index.php --debug"
+  }
+}
