@@ -65,7 +65,7 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_USERAGENT, $agent);
 curl_setopt($ch, CURLOPT_URL,$url2);
 $result2=curl_exec($ch);
-$result2 = preg_replace('/http/', 'http://wizler.net/wave.php/http', $result2);
+$result2 = preg_replace('/http/', 'http://edge1337.herokuapp.com/http', $result2);
 ?>
 <?php
 echo ($result2);
